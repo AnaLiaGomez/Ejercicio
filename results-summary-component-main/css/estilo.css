@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  
+}
+.container {
+  width: min 375% 100%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.principal {
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: hsl(241, 81%, 54%);
+  color: white;
+  padding: 20px;
+}
+.t1 p{
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.contenido {
+  border-radius: 10px;
+  display: flex;
+  padding: 1rem;
+}
+.circulo {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+}
+
+.of{
+align-items: center;
+justify-content: center;
+}
+
+.great p{
+  margin: 20px;
+}
+.circulo h4 {
+  font-size: 50px;
+}
+
+.reaction {
+  margin-top: auto;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 0, 0, 0.1);;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  margin-top: auto;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 165, 0, 0.1);;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  margin-top: auto;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 128, 0, 0.1);
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  margin-top: auto;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 255, 0.1);
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  color: hsl(234, 85%, 45%);
+}
+.text{
+  text-align: right;
+  flex: 1;
+  color: black;
+}
+h3{
+  padding: 10px;
+}
+
+.btn_continue {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 1.5rem;
+  background-color: hsl(224, 30%, 27%);
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+img{
+  margin-right: 5px;
+}
+
+@media screen and (min-width:600px){
+  body{
+    height: 100hv;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+  }
+
+}
